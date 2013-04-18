@@ -1,6 +1,11 @@
 # CHANGELOG
 
+## 0.3.2 (unreleased)
+  * Using child with a nil value will be correctly formatted as nil
+
 ## 0.3.1
+  * Add `merge` keywork
+  * Format can be passed as a string or a symbol
   * Avoid to unexpectedly change cached templates (johnbintz)
   * Add full template stack support to `glue` (fnordfish)
   * Allow format to be a symbol (lloydmeta)
